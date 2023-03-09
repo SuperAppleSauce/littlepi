@@ -7,7 +7,7 @@ from PIL import Image
 from inky.auto import auto
 
 inky = auto(ask_user=True, verbose=True)
-saturation = 0.5
+saturation = 0.1
 
 if len(sys.argv) == 1:
     print("""
